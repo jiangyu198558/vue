@@ -344,5 +344,3 @@ import { editNote } from '../vuex/actions' export default { vuex: { getters: { a
 这个总结了本教程！ 我希望Vuex的这个实际介绍可以帮助您将其整合到您的下一个VueJs项目中。 我想重申，Vuex面向中大规模的SPA，所以我不建议你把它放在你制作的每个应用程序中，因为它可能会比最初产生更多的复杂性。
 
 我鼓励你下载完成的代码 ，如果你还没有，并且按照你自己的速度浏览它，看看它们是如何组合在一起的。
-
-和往常一样，如果您有任何问题，可以在Twitter上发表评论，或者在Twitter上发表评论@coligo_io ，我会尽力回复您！ 
