@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Hello World</title>
+</head>
+<body>
+	<div id="app">
+		<p>{{message}}</p>
+		<input type="text" v-model="message"/>
+	</div>
+	<script src="vue.js"></script>
+	<script>
+		// 这是model
+		var exampleData = {
+			message: 'Hello Vue!'
+		};
+
+		// 创建一个Vue实例或"ViewModel"
+		// 它连接View与Model
+		new Vue({
+			el: '#app',
+			data: exampleData
+		});
+
+		// 使用Vue的过程
+		// 1、定义view 2、定义model 3、创建Vue实例 在创建Vue实例时，需要传入一个选项对象，选项对象可以包含数据、挂载元素、方法、模生命周期钩子等
+
+		// 双向数据绑定
+	</script>
+</body>
+</html>
